@@ -1,0 +1,12 @@
+{
+  "name": "almcreact",
+  "version": "1.0.0",
+  "description": "lab",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm uninstall -g almcreact && npm install -g"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": "index.js"
+}
