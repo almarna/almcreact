@@ -1,6 +1,6 @@
 {
   "name": "almcreact",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React project setup with Typescript, Parcel, Eslint & Prettier",
   "main": "index.js",
   "scripts": {
