@@ -1,6 +1,6 @@
 {
   "name": "almcreact",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React project setup with Typescript, Parcel, Eslint & Prettier",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,6 @@
   },
   "author": "",
   "license": "free",
-  "bin": "index.js"
+  "bin": "index.js",
+  "keywords": [ "React", "Eslint", "lint", "Parcel", "Prettier", "Typescript"]
 }
