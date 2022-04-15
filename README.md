@@ -13,6 +13,9 @@ Enforces consistent formatting for different projects (and programmers).
 
 It creates a subfolder with the given name and with the minimum required startup files.
 
+#
+### Usage:
+npx almcreact \<appname\>
 ### To test the application:  
 cd \<appname\>  
 npm i  
