@@ -17,6 +17,11 @@ function main() {
         fs.copyFileSync(srcFile, destFile);
     };
 
+    const copyRename = function (srcName, destName) {
+        srcFile = path.join(srcDir, srcName);
+        destFile = path.join(destDir, destName);
+        fs.copyFileSync(srcFile, destFile);
+    };
 
     fs.mkdirSync(appname);
     const srcSubDir = path.join(appname, "src");
@@ -28,8 +33,8 @@ function main() {
     copyFile(".parcelrc");
     copyFile(".eslintrc.js");
     copyFile(".prettierrc.js");
-    copyFile(".gitignore");
     copyFile("index.tsx", "src");
+    copyRename("_gitignore", ".gitignore");
 
     console.log("Execute the following to test your new web:\n\r" +
         `cd ${appname}\n\r` +
